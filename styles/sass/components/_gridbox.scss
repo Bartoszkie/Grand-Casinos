@@ -1,0 +1,207 @@
+.section-gridbox {
+  box-shadow: 0px 0px 20px #00000029;
+  border-radius: 4px;
+  background-color: #fff;
+
+  padding: 56px 0px 48px 0px;
+
+  max-width: 960px;
+  margin: 0 32px;
+
+  position: relative;
+  z-index: 200;
+
+  // transform: translateY(-30px);
+
+  @media screen and (min-width: 360px) {
+    margin: 0 36px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin: 0 32px;
+    align-self: center;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin: 0 160px;
+    max-width: 960px;
+    align-self: center;
+  }
+
+  &__places {
+    transform: translateY(-150px) !important;
+
+  }
+
+  .gridbox {
+    &__heading {
+      color: #231841;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+
+      margin: 0px 0 32px 0;
+
+      text-align: center;
+
+      width: 100%;
+      grid-column: 1 / -1;
+      justify-self: center;
+
+      @media screen and (min-width: 768px) {
+        margin-bottom: 0px;
+      }
+    }
+
+    display: flex;
+    // flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @media screen and (min-width: 768px) {
+      // flex-direction: row;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      height: 100%;
+      column-gap: 32px;
+      row-gap: 38px;
+
+      padding: 0 48px;
+      justify-content: center;
+    }
+
+    @media screen and (min-width: 1024px) {
+      padding: 0 104px;
+    }
+  }
+
+  .gridbox__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 360px;
+    width: 100%;
+
+    @media screen and (min-width: 456px) {
+      margin: 0 25px;
+      box-shadow: 0px 0px 10px #00000029;
+      border-radius: 0 0 4px 4px;
+    }
+
+    @media screen and (min-width: 520px) {
+      margin: 0 48px;
+    }
+
+    @media screen and (min-width: 668px) {
+      margin: 0 auto;
+    }
+
+    @media screen and (min-width: 768px) {
+      // max-width: unset;
+      margin: 0;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 32px;
+
+      @media screen and (min-width: 768px) {
+        margin: 0;
+      }
+    }
+
+    img {
+      width: 100%;
+
+      @media screen and (min-width: 456px) {
+        border-radius: 4px 4px 0 0;
+      }
+    }
+
+    &__details {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+
+      &__headings {
+        display: flex;
+        flex-direction: column;
+
+        &__heading {
+          margin-top: 32px;
+          font-size: 20px;
+          color: #231841;
+          font-family: "Lato", sans-serif;
+          font-weight: 500;
+          line-height: 33px;
+
+          &::after {
+            margin-top: 15.5px;
+            margin-left: auto;
+            margin-right: auto;
+
+            content: "";
+            display: block;
+
+            background-color: #107CC0;
+            width: 80px;
+            height: 2px;
+          }
+        }
+      }
+
+      &__stories {
+        margin: 20.5px 36px 32px 32px;
+        color: #8d8d8d;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 100;
+        font-family: "Roboto", sans-serif;
+        text-align: left;
+
+        @media screen and (min-width: 768px) {
+          flex: 1 0 auto;
+        }
+
+        &__link {
+          text-decoration: none;
+          color: #5863F8;
+          font-weight: 500;
+          transition: .2s ease-in-out all;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+
+      &__btn {
+        text-decoration: none;
+        padding: 12px 33px;
+
+        border: 2px solid #ff4858;
+        border-radius: 4px;
+
+        color: #ff4858;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+        text-align: center;
+
+        transition: 0.2s ease-in-out all;
+
+        &:hover {
+          background-color: #ff4858;
+          color: #fff;
+        }
+
+        @media screen and (min-width: 456px) {
+          margin-bottom: 44px;
+        }
+      }
+    }
+  }
+}

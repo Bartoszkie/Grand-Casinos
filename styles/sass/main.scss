@@ -1,0 +1,17 @@
+//BASE 
+@import "./base/variables";
+@import "./base/base";
+@import "./base/mixins";
+@import "./base/utilities";
+
+//COMPONENTS
+@import "./components/header";
+@import "./components/banner";
+@import "./components/section-carousel";
+@import "./components/gridbox";
+@import "./components/info";
+@import "./components/footer";
+@import "./components/section-banner";
+
+//PAGES
+@import "./pages/pages";

@@ -1,0 +1,17 @@
+.text-left {
+    text-align: left !important;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #231841;
+
+    padding: 0 30px;
+
+    @media screen and (min-width: 360px) {
+        padding: 0;
+    }
+
+    @media screen and (min-width: 1024px) {
+        padding: 0 104px !important;
+    }
+}

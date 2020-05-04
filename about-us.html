@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/sass/main.css">
+    <link rel="stylesheet" href="./js/swiper.min.css">
+    <title>Aussie Luxe - About Us</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="page-header">
+            <div class="center-header">
+                <a href="./index.html" class="page-header__logo">
+                    CANADA<span>RATINGS</span>LIST
+                </a>
+                <input class="page-header__menu-btn" type="checkbox" id="menu-btn" />
+                <label class="page-header__menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="page-header__menu">
+                    <li class="page-header__menu__item">
+                        <a href="./index.html">
+                            <p>Home</p>
+                        </a>
+                    </li>
+                    <li class="page-header__menu__item">
+                        <a href="./about-us.html">
+                            <p>About Us</p>
+                        </a>
+                    </li>
+                    <li class="page-header__menu__item">
+                        <a href="./privacy-policy.html">
+                            <p>Privacy Policy</p>
+                        </a>
+                    </li>
+                </ul>
+                <nav class="page-header__menu__desktop">
+                    <ul class="page-header__menu__desktop__ul">
+                        <li class="page-header__menu__desktop__ul__item">
+                            <a href="./index.html">
+                                <p>Home</p>
+                            </a>
+                        </li>
+                        <li class="page-header__menu__desktop__ul__item">
+                            <a href="./about-us.html">
+                                <p>About Us</p>
+                            </a>
+                        </li>
+                        <li class="page-header__menu__desktop__ul__item">
+                            <a href="./privacy-policy.html">
+                                <p>Privacy Policy</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="page-main">
+            <section class="section-banner" style="background-image: url(../assets/img/JPG/greenvallyranch@2x.png);">
+                <div class="section-banner__info">
+                    <h1 class="section-banner__info__h1">Canada’s best deals!</h1>
+                    <h2 class="section-banner__info__h2">Enjoy the casinos and entertainment of Las Vegas</h2>
+                    <p class="section-banner__info__p">
+                        Visiting Las Vegas should be the trip of a lifetime for most people! Our aim is to find you the
+                        best casino deals for Canadian’s when visiting the City of Sin! Unlike Canadian casinos, which
+                        are generally small in comparison, Las Vegas is packed with attractions that provide fantastic
+                        entertainment, including Nightclubs, fine dining, Musical and entertainment shows, all within
+                        some of the most glamorous hotels in the world!
+                    </p>
+                    <a href="" class="section-banner__info__btn">Learn more</a>
+                </div>
+            </section>
+            <section class="section-gridbox">
+                <div class="info info--casino">
+                    <h1 class="h1 info__heading">
+                        About Us
+                    </h1>
+                    <p class="p info__paragraph info__paragraph-m0 text-left">
+                        We are the leading entertainment comparison service in Australia. We source the best deals from
+                        a variety of providers to ensure the lowest prices for our visitors. We provide independent
+                        information about the best entertainment venues including music, comedy, dance and stage
+                        productions to offer a comprehensive guide for a wide range of tastes.
+                        <br> <br>
+                        We also offer a price
+                        match guarantee on all bookings made through this site and our partners.
+                        <br> <br>
+                        Should you find the
+                        same deal cheaper within 7 days, we will refund the difference and give you a 10% discount on
+                        your next order. Should you wish to advertise with us, please use our contact form and we will
+                        respond shortly.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="page-footer page-footer__about">
+            <div class="footer__details">
+                <h4 class="footer__details__h4"> 2020 © Aussie Luxe</h4>
+                <p class="footer__details__p">
+                    Independent Entertainment Guide <br>
+                    4 Lawrence St, Freshwater NSW 2096
+                    <br>
+                    Phone: (02) 9939 5560
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            autoplay: {
+                delay: 2000,
+            }
+        });
+    </script>
+</body>
+
+</html>
