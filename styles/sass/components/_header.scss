@@ -32,13 +32,17 @@
         transform: translateX(32px);
 
         line-height: 29px;
-        font-size: 24px;
+        font-size: 19px;
         color: #023E73;
         font-weight: 600;
         font-family: "Lato", sans-serif;
 
         &>span {
             color: #DA291C;
+        }
+
+        @media screen and (min-width: 458px) {
+            font-size: 24px;
         }
     }
 
