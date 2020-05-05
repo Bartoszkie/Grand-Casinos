@@ -34,11 +34,12 @@
         line-height: 29px;
         font-size: 19px;
         color: #023E73;
-        font-weight: 600;
+        font-weight: 500;
         font-family: "Lato", sans-serif;
 
         &>span {
             color: #DA291C;
+            font-weight: 700;
         }
 
         @media screen and (min-width: 458px) {
@@ -96,7 +97,6 @@
                     cursor: pointer;
 
                     & a {
-                        // text-transform: uppercase;
                         font-family: "Lato", sans-serif;
                         font-weight: 700;
                         line-height: 14px;
