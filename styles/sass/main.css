@@ -1199,6 +1199,11 @@ html {
   transition: 0.2s ease-in-out all;
 }
 
+.section-banner__info__btn:hover {
+  background-color: #fff;
+  color: #107CC0;
+}
+
 .page-main {
   display: -webkit-box;
   display: -ms-flexbox;

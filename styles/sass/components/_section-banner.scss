@@ -19,7 +19,7 @@
     &::after {
         content: "";
         position: absolute;
-        top: 0; 
+        top: 0;
         left: 0;
         z-index: 100;
 
@@ -95,6 +95,11 @@
             outline: none;
             -webkit-transition: 0.2s ease-in-out all;
             transition: 0.2s ease-in-out all;
+
+            &:hover {
+                background-color: #fff;
+                color: #107CC0;
+            }
         }
     }
 }
