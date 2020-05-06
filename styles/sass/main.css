@@ -877,9 +877,9 @@ html {
 .section-gridbox .gridbox__card__details__btn {
   text-decoration: none;
   padding: 12px 33px;
-  border: 2px solid #ff4858;
+  border: 2px solid #DA291C;
   border-radius: 4px;
-  color: #ff4858;
+  color: #DA291C;
   font-family: "Lato", sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -890,7 +890,7 @@ html {
 }
 
 .section-gridbox .gridbox__card__details__btn:hover {
-  background-color: #ff4858;
+  background-color: #DA291C;
   color: #fff;
 }
 
