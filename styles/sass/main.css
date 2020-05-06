@@ -648,6 +648,16 @@ html {
   z-index: 200;
 }
 
+.section-gridbox--full {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .section-gridbox--full {
+    width: auto;
+  }
+}
+
 @media screen and (min-width: 360px) {
   .section-gridbox {
     margin: 0 36px;
@@ -1182,6 +1192,7 @@ html {
 .section-banner__info__btn {
   width: 100%;
   max-width: 288px;
+  border-radius: 4px;
   display: inline-block;
   font-family: "Lato", sans-serif;
   text-decoration: none;
