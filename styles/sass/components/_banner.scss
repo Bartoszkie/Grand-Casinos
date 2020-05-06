@@ -22,7 +22,7 @@
         width: 100%;
         max-width: 960px;
 
-        padding: 0 32px;
+        padding: 0 15px;
 
         display: flex;
         flex-direction: column;
@@ -30,10 +30,17 @@
         align-items: center;
         position: relative;
 
+        @media screen and (min-width: 456px) {
+            padding: 0 32px;
+        }
+
         &__details {
             width: 100%;
             max-width: 960px;
-            padding-left: 30px;
+            
+            @media screen and (min-width: 456px) {
+                padding-left: 15px;
+            }
 
             &__h2,
             &__h1 {
