@@ -28,11 +28,6 @@
     align-self: center;
   }
 
-  &__places {
-    transform: translateY(-150px) !important;
-
-  }
-
   .gridbox {
     &__heading {
       color: #231841;
@@ -54,12 +49,10 @@
     }
 
     display: flex;
-    // flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
 
     @media screen and (min-width: 768px) {
-      // flex-direction: row;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       height: 100%;
@@ -81,13 +74,13 @@
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    max-width: 360px;
     width: 100%;
 
     @media screen and (min-width: 456px) {
       margin: 0 25px;
       box-shadow: 0px 0px 10px #00000029;
       border-radius: 0 0 4px 4px;
+      max-width: 360px;
     }
 
     @media screen and (min-width: 520px) {
@@ -99,7 +92,6 @@
     }
 
     @media screen and (min-width: 768px) {
-      // max-width: unset;
       margin: 0;
     }
 
