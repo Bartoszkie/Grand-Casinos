@@ -15,8 +15,6 @@
 
 .button-center {
     position: absolute;
-
-    // transform: translateX(-50%);
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
@@ -24,42 +22,10 @@
 
 .swiper-button-prev {
     margin-left: 20px;
-
-    // @media screen and (min-width: 1622px) {
-    //     left: 20% !important;
-    // }
-
-    // @media screen and (min-width: 1884px) {
-    //     left: 22% !important;
-    // }
-
-    // @media screen and (min-width: 2000px) {
-    //     left: 25% !important;
-    // }
-
-    // @media screen and (min-width: 2303px) {
-    //     left: 29% !important;
-    // }
 }
 
 .swiper-button-next {
     margin-right: 20px;
-
-    // @media screen and (min-width: 1622px) {
-    //     right: 20% !important;
-    // }
-
-    // @media screen and (min-width: 1884px) {
-    //     right: 22% !important;
-    // }
-
-    // @media screen and (min-width: 2000px) {
-    //     right: 25% !important;
-    // }
-
-    // @media screen and (min-width: 2303px) {
-    //     right: 29% !important;
-    // }
 }
 
 .swiper-pagination {
@@ -88,16 +54,12 @@
     justify-content: center;
     align-items: center;
 
-    // min-height: 400px; 
-    // max-width: 1200px;
-
     .center-div {
         width: 100%;
         max-width: 960px;
 
         @media screen and (min-width: 768px) {
             margin-left: 30px;
-            // padding-left: 50px;
         }
 
         @media screen and (min-width: 1024px) {

@@ -68,6 +68,27 @@ html {
   }
 }
 
+.text-left--smP {
+  text-align: left !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  color: #231841;
+  padding: 0 30px;
+}
+
+@media screen and (min-width: 360px) {
+  .text-left--smP {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .text-left--smP {
+    padding: 0 96px !important;
+  }
+}
+
 .page-header {
   width: 100%;
   padding: 11px 0px 10px 0px;
@@ -369,7 +390,7 @@ html {
 
 .section-banner__infobox__details__h2, .section-banner__infobox__details__h1 {
   z-index: 5;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .section-banner__infobox__details__h2 {
